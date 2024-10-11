@@ -1,30 +1,94 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-header {
-    height: 60px;
-    display: flex;
-}
-
-.title {
-    font-size: 30px;
     font-family: "Inter";
 }
 
-.logo {
+header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+#brand {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#logo {
     width: 50px;
     height: 32px;
 }
 
+#title {
+    font-size: 30px;
+    color: #263238;
+}
+
 nav {
     display: flex;
-    margin-left: auto;
+    align-items: center;
+    width: 700px;
+    justify-content: space-evenly;
 }
 
 .nav_item {
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+.nav_item:hover {
+    text-decoration: underline;
+}
+
+button {
     font-family: "Inter";
-    margin-right: 20px;
-    font-size: 20px;
+    font-size: 18px;
+    background-color: #4CAF4F;
+    border-radius: 5px;
+    color: white;
+    padding: 0px 30px;
+    height: 60px;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    border-color: black;
+}
+
+#main_banner {
+    background-color: #F5F7FA;
+    height: 620px;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.main_banner_title {
+    font-size: 65px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+#eight_years {
+    color: #4CAF4F;
+}
+
+#main_banner_paragraph {
+    color: #717171;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px ;
+}
+
+#main_banner_image {
+    width: 400px;
+    height: 415px;
 }
