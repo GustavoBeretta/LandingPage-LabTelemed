@@ -13,19 +13,19 @@ header {
     justify-content: space-between;
 }
 
-#brand {
+header div {
     display: flex;
     align-items: center;
     width: 200px;
     justify-content: space-evenly;
 }
 
-#logo {
+header img {
     width: 50px;
     height: 32px;
 }
 
-#title {
+header h1 {
     font-size: 30px;
     color: #263238;
 }
@@ -37,12 +37,12 @@ nav {
     justify-content: space-evenly;
 }
 
-.nav_item {
+nav a {
     font-size: 18px;
     color: #4D4D4D;
 }
 
-.nav_item:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
@@ -71,24 +71,38 @@ button:hover {
     align-items: center;
 }
 
-.main_banner_title {
+#main_banner h2 {
     font-size: 65px;
     font-weight: 600;
     color: #4D4D4D;
 }
 
-#eight_years {
-    color: #4CAF4F;
-}
-
-#main_banner_paragraph {
+.text {
     color: #717171;
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 40px ;
 }
 
-#main_banner_image {
+#main_banner img {
     width: 400px;
     height: 415px;
+}   
+
+#clients {
+    text-align: center;
+    padding: 40px 0px;
+    max-width: 1250px;
+    margin: auto;
+}   
+
+.title {
+    font-size: 40px;
+    color: #4D4D4D;
+}
+
+#clients div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
