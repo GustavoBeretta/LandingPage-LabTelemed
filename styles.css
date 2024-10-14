@@ -13,14 +13,14 @@ header {
     justify-content: space-between;
 }
 
-header div {
+.logo {
     display: flex;
     align-items: center;
     width: 200px;
     justify-content: space-evenly;
 }
 
-header img {
+.favicon {
     width: 50px;
     height: 32px;
 }
@@ -42,19 +42,22 @@ nav a {
     color: #4D4D4D;
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-button {
-    font-family: "Inter";
+.green_button {
     font-size: 18px;
     background-color: #4CAF4F;
-    border-radius: 5px;
     color: white;
     padding: 0px 30px;
     height: 60px;
+}
+
+button {
+    cursor: pointer;
     border: 2px solid transparent;
+    border-radius: 5px;
 }
 
 button:hover {
@@ -92,7 +95,7 @@ button:hover {
 #clients {
     text-align: center;
     padding: 40px 0px;
-    max-width: 1250px;
+    max-width: 1200px;
     margin: auto;
 }   
 
@@ -111,7 +114,7 @@ button:hover {
 #manage {
     text-align: center;
     margin-top: 20px;
-    max-width: 1250px;
+    max-width: 1200px;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -139,4 +142,55 @@ button:hover {
     font-size: 13px;
     color: #717171;
     font-weight: 400;
+}
+
+#footer {
+    color: white;
+    display: flex;
+    height: 220px;
+    margin: auto;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+#social {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#social img {
+    cursor: pointer;
+}
+
+.footer_title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+footer a {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+input {
+    border-width: 0;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    outline: none;
+    padding-left: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#newsletter_button {
+    font-size: 15px;
+    padding: 0px 5px;
+    height: 22px;
 }
