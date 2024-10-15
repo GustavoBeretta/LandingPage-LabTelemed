@@ -97,7 +97,7 @@ button:hover {
     padding: 40px 0px;
     max-width: 1200px;
     margin: auto;
-}   
+}
 
 .title {
     font-size: 40px;
@@ -109,6 +109,7 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #manage {
@@ -164,6 +165,12 @@ button:hover {
 
 #social img {
     cursor: pointer;
+}
+
+#links {
+    width: 344px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer_title {
@@ -225,7 +232,7 @@ input {
     .green_button {
         padding: 0px 15px;
         height: 40px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     #card_line {
@@ -234,6 +241,37 @@ input {
     }
 
     .manage_card {
+        margin-bottom: 30px;
+    }
+
+    #main_banner {
+        flex-direction: column;
+        height: 100%;
+        padding-top: 30px;
+    }
+
+    #main_banner img {
+        margin: 40px 0px;
+        height: 312px;
+        width: 300px;
+    }
+
+    #clients {
+        max-width: 344px;
+    }
+
+    #footer {
+        flex-direction: column;
+        height: 100%;
+        padding-top: 30px;
+        align-items: center;
+    }
+
+    #links {
+        margin: 30px 0px;
+    }
+
+    #newsletter_button {
         margin-bottom: 30px;
     }
 }
